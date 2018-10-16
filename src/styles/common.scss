@@ -1,0 +1,180 @@
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    //font-family: cursive,"Hiragino Sans GB", Arial,"Helvetica Neue",Helvetica,"PingFang SC" ;
+    //font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    &:focus {
+        outline: none;
+    }
+}
+
+em {
+    font-style: normal;
+}
+
+#msgP {
+    position: fixed;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+    text-align: center;
+    z-index: 100000000;
+    line-height: 25px;
+    padding: 10px 30px;
+    
+    border-radius: 10px;
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+//::-webkit-scrollbar
+//{
+//  width: 10px;
+//  height: 0px;
+//  background-color: #F5F5F5;
+//}
+//
+///*定义滚动条轨道 内阴影+圆角*/
+//::-webkit-scrollbar-track
+//{
+//  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+//  border-radius: 10px;
+//  background-color: #F5F5F5;
+//}
+//
+///*定义滑块 内阴影+圆角*/
+//::-webkit-scrollbar-thumb
+//{
+//  border-radius: 10px;
+//  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+//  background-color: #ccc;
+//}
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    //font-family: Verdana,"Hiragino Sans GB", '\5b8b\4f53', Arial,"Helvetica Neue",Helvetica,"PingFang SC" ;
+    font-family: Verdana, "Hiragino Sans GB", "Microsoft Yahei", '\5b8b\4f53', Arial, "Helvetica Neue", Helvetica, "PingFang SC";
+}
+
+.el-button {
+    width: 128px;
+}
+
+.el-button--mini {
+    width: 80px;
+}
+
+.el-button--danger {
+    background-color: #DB5050;
+}
+.el-tooltip__popper{
+        max-width:300px;
+}
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.back_img {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.margin {
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.paddingTop {
+    padding-top: 1.95rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

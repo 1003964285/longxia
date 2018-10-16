@@ -1,0 +1,82 @@
+.searchBox{
+	
+}
+.searchList{
+    display: inline-flex;
+    min-width: 270px;
+    align-items:center;
+}
+.searchBox{
+	background:rgba(255,255,255,1);
+	padding:20px 10px 0 10px;
+}
+.searchTitle{
+	min-width:130px;
+	display: inline-flex;
+	justify-content:flex-end;
+}
+.inputs{
+    width:200px;
+}
+.tableBox{
+	background:rgba(255,255,255,1);
+	border-radius:2px;
+	/*margin:10px;*/
+	padding:20px;
+}
+.pageBox{
+    padding: 40px 0 0 0;
+    display:flex;
+    justify-content: center;
+}
+.select{
+	width: 100px;
+	margin-left: 20px;
+}
+.button{
+    cursor:pointer;
+    margin:0 10px;
+    min-width:65px;
+    padding:5px 15px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    border-radius:5px;
+    color:#4F4D4D;
+    float:right;
+    display: inline-block;
+}
+.button:hover{
+    background: #ACD6FF;
+    border: 1px solid #ACD6FF;
+    color:#FFFFFF; 
+}
+.btnSmall{
+    cursor:pointer;
+    margin:0 10px;
+    min-width:65px;
+    padding:5px 15px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    border-radius:5px;
+    color:#4F4D4D;
+    display: inline-block;
+}
+.btnSmall:hover{
+    background: #ACD6FF;
+    border: 1px solid #ACD6FF;
+    color:#FFFFFF; 
+}
+.danger{
+    background:#1890FF;
+    color:#FFFFFF;
+}
+
+
+/*超出显示  ...*/
+	.detail{
+		overflow: hidden; 
+		text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+		white-space: nowrap;/*强制不换行*/
+		width:100%;/*不允许出现半汉字截断*/
+		text-align:center;
+	}
